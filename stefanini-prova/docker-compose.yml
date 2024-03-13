@@ -1,0 +1,13 @@
+version: '3.1'
+
+services:
+  postgres:
+    container_name: stefaniniprova
+    image: postgres
+    restart: always
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: "stefaniniprova"
+      POSTGRES_PASSWORD: "stefaniniprova"
+      POSTGRES_DB: "stefaniniprova"

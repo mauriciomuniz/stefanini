@@ -1,0 +1,6 @@
+@stefanini_prova_HostAddress = https://localhost:7070
+
+GET {{stefanini_prova_HostAddress}}/api/Tarefas/Tarefas
+Accept: application/json
+
+###
